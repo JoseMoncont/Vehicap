@@ -1,0 +1,103 @@
+.pad-j{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.altura-3{
+    padding-top: 10%;
+}
+.redon{
+
+    border-radius: 3px;
+
+}
+.color-icon{
+color: #35135D;
+}
+.texto-buscador{
+    font-family: 'Montserrat';
+    padding-bottom: 3rem;
+}
+.jum-style{
+    margin:10%;
+    margin-top: 5%;
+    padding: 5%;
+    margin-bottom: 0;
+}
+.jum-style-respuesta{
+    margin: auto;
+    margin-top: 0%;
+    padding: 5%;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+}
+.boton-pur{
+
+    background-color: #35135D;
+    color: aliceblue;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+}
+.busqueda-place{
+
+    border-radius: 25px;
+    font-family: 'Montserrat';
+}
+button{
+    border-radius: 25px;
+}.jum-style-upload{
+    margin:10%;
+    margin-top: 5%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.text-sa{
+   
+    font-family: 'Montserrat';
+}
+.size-imagen{
+
+    width: 70px; height: 70px;
+    align-items: center;    
+    margin: auto;
+}
+.tamaño-car{
+    width: 18rem;
+}
+.text-mont{
+    font-family: 'Montserrat';
+}
+.subir-place{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    border-radius: 20px;
+    padding: auto;
+}
+.boton-pur2{
+
+    background-color: #35135D;
+    color: aliceblue;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.text-landing{
+color: #35135D;
+background-image: url("/src/assets/img/hero-1.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0;
+}
+.logo-landing{
+    width: 95px;
+    margin: auto;
+    padding: auto;
+}
+.mont{
+    font-family: 'Montserrat';
+}
+.massimo{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    max-width: 40%;
+}
