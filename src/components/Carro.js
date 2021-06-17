@@ -4,9 +4,11 @@ import '../assets/css/buscador.css'
 
 const Carro = (props) => {
 
+//Definimos los atributos que nos manda el array de la API
     const {placa, marca, modelo, empleado, estado, procedimiento, fechaIngreso, fechaSalida, descripcion} = props.carro;
 
     return(
+        //Creamos un Jumbotron que nos mostrrá los resultados de la API a traves de una tabla
         <Jumbotron className=" jum-style-respuesta ">
 
         <div>

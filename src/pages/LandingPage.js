@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Grid, Container, Button } from '@material-ui/core';
+import {  Button } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import hero9 from '../assets/img/hero-5.jpg';
@@ -8,6 +8,7 @@ import '../assets/css/buscador.css'
 
 const Landing = () => {
   return (
+    //Definimos la imagen de fondo que tendrá la página, su titulo, el logo y el boton que nos direccionará al login
     <Fragment>
       <div className="hero-wrapper bg-composed-wrapper bg-premium-dark min-vh-100 text-landing">
         <div className="flex-grow-1 w-100  align-items-center">

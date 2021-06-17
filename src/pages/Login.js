@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SignInSide() {
   const classes = useStyles();
-
+// Visualizacion de los campos para el inicio de sesión 
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />

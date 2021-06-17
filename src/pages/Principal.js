@@ -13,12 +13,13 @@ class Principal extends Component{
         termino: '',
         carros : []
     }
-
+//con este metodo hacemos la consulta a la API
 consultarAPI = () => {
     const termino = this.state.termino;
     const url = `https://planning-car-api.azurewebsites.net/jobs/${termino}`;
 
     //console.log(url)
+    //Con fetch obtenemos la respuesta
     fetch(url)
     .then(respuesta => respuesta.json())
     .then(resultado => this.setState({ carros : resultado.data}))
@@ -31,7 +32,7 @@ consultarAPI = () => {
     render(){
 
         return (
-            
+//llamamos a los otros componentes
             <>
                 <div className="App">
                  <MainNavbar/>

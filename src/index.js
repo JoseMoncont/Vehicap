@@ -7,6 +7,8 @@ import Carros from './pages/Carros';
 import Login from './pages/Login';
 import Landing from './pages/LandingPage';
 
+//Renderizamos y definimos las rutas de nuestras páginas
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

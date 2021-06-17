@@ -9,8 +9,9 @@ function Home() {
 
 
   return (
-
+//llamamos al componente principal, con el cual hacemos la busqueda
     <>
+  
     <Principal/>
     
     </>

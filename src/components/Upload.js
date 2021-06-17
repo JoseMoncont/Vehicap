@@ -10,6 +10,8 @@ import csv from '../assets/img/csv.png'
 
 function Upload() {
 
+//definimos los metodos para subir el archivo
+
   const [archivos, setArchivos]=useState(null);
 
   const subirArchivos=e=>{
@@ -21,11 +23,11 @@ function Upload() {
       for (let index = 0; index < archivos.length; index++) {
           f.append("files", archivos[index]);
       }
-
+//Con el metodo post subimos nuestro archivo
       await axios.post("http://vehicap-api.azurewebsites.net/upload", f)
       .then(response =>{
         console.log(response.data);
-
+//mensaje de error por consola
       }).catch(error=>{
           console.log(error);
       })
@@ -34,7 +36,7 @@ function Upload() {
 
   return (
 
-
+//Retornamos la vista que tendrá el usuario, tambien con un Jumbotron
     <Jumbotron className=" jum-style-upload">
         
             <div className="card tamaño-card sm-2">

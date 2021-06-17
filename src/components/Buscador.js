@@ -18,7 +18,7 @@ class Buscador extends Component {
 
     render(){
         return ( 
-
+//Creamos un Jumbotron que contendrá el formulario que se mostrará al usuario
            <Jumbotron className=" jum-style">
                <h1 className="texto-buscador">Encuentra el Vehículo</h1>
                <form onSubmit={this.obtenerDatos}>

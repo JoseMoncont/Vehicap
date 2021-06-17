@@ -3,14 +3,15 @@ import Logo from '../assets/img/logow.png'
 import '../assets/css/navbar.css'
 import { NavDropdown } from 'react-bootstrap';
 
-
+//Esta es la Barra de Navegacion Principal
+//La Definimos
 class MainNavbar extends Component{
     render(){
 
         return (
                 
             
-
+//Creamos los botones que tendrá nuestra barra, asi tambien como el icono 
             <nav className="navbar navbar-expand-lg nav-j ">
                 <div className="container-fluid">
                 <a className="navbar-brand mai-1" href="/"><img src={Logo} alt="" width="30" height="30" className="d-inline-block align-text-top"></img>{"  "}<b>VEHI</b>CAP</a>
